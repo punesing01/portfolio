@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.main-header{
+    vertical-align: middle;
+}
+
+.header_logo__link{
+    display: inline-block;
+    position: absolute;
+    font-family: 'Monoton', cursive;
+    font-size: 1.8rem;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+    color: gold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header_nav{
+    background: black;
+}
+
+.header_nav__list{
+    margin: 0;
+    text-align: right;
+}
+
+.header_nav__listitem{
+    display: inline-block;
+    list-style: none;
+    padding:1rem;
+}
+
+.header_nav__listitem a {
+    text-decoration: none;
+    color: rgb(211, 200, 200);
+    font-family: 'Carter One', cursive;
+    font-size: 1.2rem;
+}
+
+.header_nav__listitem a:hover,
+.header_nav__listitem a:active {
+    color: white;
+    border-bottom: 2px solid gold;
+}
