@@ -126,7 +126,6 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-color: rgb(105, 103, 103);
-    /*float: right;*/
 }
 
 .main_intro__header{
@@ -170,8 +169,8 @@ body{
 
 
 .work_companies__listitem  svg {
-    width: 96px;
-    height: 96px;
+    width: 80px;
+    height: 80px;
     margin:8px;
 }
 
