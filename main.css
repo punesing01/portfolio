@@ -15,10 +15,11 @@ body{
 
 .main-header{
     background: black;
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 .main-header > div{
@@ -103,24 +104,43 @@ body{
 }
 
 .main_intro__content{
-    display: inline-block;
+    /*display: inline-block;*/
     font-family: 'Josefin Sans', sans-serif;
-    padding: 28px;
+    /*padding: 28px;*/
     color: white;
     margin-left: 108px;
     font-size: x-large;
     vertical-align: middle;
+    position: relative;
+    top:48px;
+    padding: 32px 0;
+    /*display: inline-block;*/
+    /*width: 100%;*/
+}
+
+.main_intro__container {
+    display: inline-block;
+    vertical-align: middle;
+    height: 240px;
+    text-align: left;
+    padding: 8px 0;
+}
+.main_intro__selfie_container{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 0;
 }
 
 .main_intro__selfie{
-    display: inline-block;
+    /*display: inline-block;*/
     border:4px solid gold;
     border-radius: 50%;
-    width: 360px;
-    height: 360px;
-    margin: 32px;
+    width: 240px;
+    height: 240px;
+    /*margin: 32px;*/
+    margin: 0;
     vertical-align: middle;
-    position: relative;
+    /*position: relative;*/
     background: url("images/selfie.JPG");
     background-size: contain;
     background-repeat: no-repeat;
@@ -130,12 +150,20 @@ body{
 
 .main_intro__header{
    vertical-align: middle;
-    position: fixed;
-    top:96px;
+   margin:0;
+   /*position: relative;
+   top:36px;*/
+   padding: 4px 8px;
 }
 
 .main_intro__content p{
-    position: relative;
+    /*position: relative;
+    top:48px;*/
+    margin: 0;
+    text-align: left;
+    padding: 4px 8px;
+    line-height: 1.6;
+    /*display: inline-block;*/
 }
 
 .main_intro__button{
@@ -146,6 +174,11 @@ body{
     border-radius: 16px;
     font-weight: bolder;
     box-shadow: 10px 5px 5px rgb(231, 207, 73);
+    /*position: relative;
+    top:120px;*/
+    display: inline-block;
+    vertical-align: middle;
+    background: rgb(218, 228, 226);
 }
 
 .main_intro__button:hover,
@@ -155,11 +188,21 @@ body{
     box-shadow: 10px 5px 5px rgb(209, 90, 100);
 }
 
+.main_intro_secondary{
+    margin-left: 108px;
+
+}
+
 .work_companies__list{
-    display: inline-block;
+    /*display: inline-block;
     position: relative;
     left:96px;
-    bottom:80px;
+    bottom:80px;*/
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 292px);
+    text-align: right;
+    padding: 0;
 }
 
 .work_companies__listitem{
@@ -196,4 +239,24 @@ body{
 
 .work_companies__accenture svg g{
     fill: rgb(57, 141, 209);
+}
+
+.section_about_me__intro{
+    width: 100%;
+    /*height: 424px;*/
+    height: calc(100% - 480px);
+    background-color: #629fd1;
+}
+
+.common_footer{
+    background-color: black;
+}
+
+.common_footer > div{
+    color: gold;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    font-size: medium;
 }
