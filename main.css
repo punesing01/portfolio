@@ -179,12 +179,14 @@ body{
     display: inline-block;
     vertical-align: middle;
     background: rgb(218, 228, 226);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
 }
 
 .main_intro__button:hover,
 .main_intro__button:active{
     background: white;
-    color: rgb(168, 50, 50);
+    color: rgb(19, 16, 26);
     box-shadow: 10px 5px 5px rgb(209, 90, 100);
 }
 
@@ -200,7 +202,7 @@ body{
     bottom:80px;*/
     display: inline-block;
     vertical-align: middle;
-    width: calc(100% - 292px);
+    width: calc(100% - 382px);
     text-align: right;
     padding: 0;
 }
@@ -258,5 +260,5 @@ body{
     text-align: center;
     padding: 16px;
     font-weight: bold;
-    font-size: medium;
+    font-size: large;
 }
