@@ -125,6 +125,7 @@ body{
     text-align: left;
     padding: 8px 0;
 }
+
 .main_intro__selfie_container{
     display: inline-block;
     vertical-align: middle;
@@ -146,6 +147,92 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-color: rgb(105, 103, 103);
+}
+
+
+.main_intro_secondary{
+    margin-left: 108px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:428px){
+    .body_main__intro{
+
+        width: 100%;
+    }
+    
+    .header_logo__link{
+        font-size: 20px;
+        vertical-align: middle;
+        position: fixed;
+    }
+
+    .header_nav{
+        display:none;
+        /*width: calc(100% - 457px);*/
+        text-align: left;
+    }
+
+    .main-header{
+        height: 80px;
+    }
+
+    .main-header > div{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .main_intro__header{
+        display: block;
+        font-size: large;
+    }
+
+    .main_intro__content p{
+        display: block;
+    }
+
+    .main_intro__selfie{
+        display: inline-block;
+        position: fixed;
+        top:5px;
+        right: 0;
+        z-index: 300;
+        width: 70px;
+        height: 70px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    .main_intro__content{
+        font-size: medium;
+        margin-left: 20px;
+    }
+
+    .main_intro_secondary{
+        margin-left: 20px;
+    }
+
+    .work_companies__list{
+        display: block !important;
+        width: 100% !important; 
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .work_companies__listitem svg {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 2px !important;
+    }
+
+    .main_intro__button{
+        display: block !important;
+        padding: 10px !important;
+        width: 8em !important;
+        position: relative;
+        left: 70px;
+        top:110px;
+    }
 }
 
 .main_intro__header{
@@ -188,11 +275,6 @@ body{
     background: white;
     color: rgb(19, 16, 26);
     box-shadow: 10px 5px 5px rgb(209, 90, 100);
-}
-
-.main_intro_secondary{
-    margin-left: 108px;
-
 }
 
 .work_companies__list{
