@@ -10,6 +10,37 @@
     margin: 5px;
 }
 
+.modal {
+    background-color: rgb(214, 221, 230);
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    z-index: 400;
+    display: none;
+}
+
+.close{
+    position: absolute;
+    right:4px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal_contents__link{
+    display: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.modal_contents__linkedin svg{
+    width: 42px;
+    height: 42px;
+    margin: 8px 16px;
+}
 
 @media only screen and (min-width: 320px) and (max-width:428px){
     .hamburger_menu{
@@ -22,6 +53,5 @@
 
     .bar {
         display: block;
-
     }
 }
