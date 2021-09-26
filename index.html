@@ -14,8 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css"></link>
     <link rel="stylesheet" href="menu.css"></link>
+    <link rel="stylesheet" href="about.css"></link>
     <script src="app.js" defer></script>
 </head>
 <body>
@@ -29,7 +33,7 @@
                     <a class="nav_listitem__link" href="index.html">Home</a>
                 </li>
                 <li class="header_nav__listitem">
-                    <a class="nav_listitem__link" href="about.html">About</a>
+                    <a class="nav_listitem__link" href="#myIntroduction">About</a>
                 </li>
                 <li class="header_nav__listitem">
                     <a class="nav_listitem__link" href="resume.html">Resume</a>
@@ -75,7 +79,7 @@ c0 493 -2 519 -48 608 -29 57 -112 129 -177 153 -98 37 -212 48 -302 30z"/>
         <span class="close">&times;</span>
         <div class="modal_contents">
             <a class="modal_contents__link" href="index.html">Home</a>
-            <a class="modal_contents__link" href="about.html">About</a>
+            <a class="modal_contents__link" href="#myIntroduction">About</a>
             <a class="modal_contents__link" href="resume.html">Resume</a>
             <a class="modal_contents__linkedin" href="https://ca.linkedin.com/in/puneesh-singh-66917034">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -113,8 +117,8 @@ c0 493 -2 519 -48 608 -29 57 -112 129 -177 153 -98 37 -212 48 -302 30z"/>
                     <h1 class="main_intro__header">
                         Hi, I'm a Software developer in Test!
                     </h1>
-                    <p>I'm passionate about learning new technologies and <br/> building software automation frameworks using open source libraries.<br/>
-                        I'm also a budding web developer and this portfolio is part of my project<br/> to hone my front end skills. <br/> I'm always open to learning about new opportunities. 
+                    <p>I'm passionate about learning new technologies and building software automation frameworks using open source libraries.
+                        I'm also a budding web developer and this portfolio is part of my project to hone my front end skills.<br/> I'm always open to learning about new opportunities. 
                     </p>
                 </div>
                 <div class="main_intro__selfie_container">
@@ -412,7 +416,20 @@ c0 493 -2 519 -48 608 -29 57 -112 129 -177 153 -98 37 -212 48 -302 30z"/>
         </section>
 
         <section class="section_about_me__intro">
-            
+            <div class="about_me__svg">
+                <svg width="24" height="42" viewBox="0 0 24 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="8" y="16" width="8" height="46" fill="#ffa500"/>
+                    <circle cx="12" cy="12" r="12" fill="#ffa500"/>
+                </svg>
+                <svg width="24" height="42" viewBox="0 0 24 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="8" y="16" width="8" height="46" fill="#a9a9a9"/>
+                    <circle cx="12" cy="12" r="12" fill="#a9a9a9"/>
+                </svg>
+            </div>
+            <div class="about_me__container">
+                <p id="myIntroduction">I am an experienced automation professional skilled in Java and Groovy programming languages. I started my career as a Cobol developer back in 2009. Over the years, I gained knowledge and experience in working with different automation technologies like
+                    Selenium, TestNg, Spock, BDD, TDD, Cucumber, Cypress, Rest assured, etc. I am passionate about learning web development using Vanilla Javascipt, HTML and css. My goal is to learn the foundation before moving onto the Javascript libraries like React.</p>          
+            </div>
         </section>
         
     </main>

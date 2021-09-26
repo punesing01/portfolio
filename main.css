@@ -64,6 +64,7 @@ body{
     text-decoration: none;
     color: rgb(211, 200, 200);
     font-family: 'Carter One', cursive;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
     margin: 1.5rem;  
 }
 
@@ -101,6 +102,9 @@ body{
     /*height: 424px;*/
     height: 500px;
     background-color: #153956;
+    position: relative;
+    /*top: 76px;*/
+    top: 48px;
 }
 
 .main_intro__content{
@@ -111,30 +115,33 @@ body{
     margin-left: 108px;
     font-size: x-large;
     vertical-align: middle;
-    position: relative;
-    top:48px;
-    padding: 32px 0;
+    /*position: relative;
+    top:48px;*/
+    padding: 16px 0;
     /*display: inline-block;*/
     /*width: 100%;*/
+
 }
 
 .main_intro__container {
     display: inline-block;
     vertical-align: middle;
-    height: 240px;
+    /*height: 240px;*/
     text-align: left;
     padding: 8px 0;
+    width: 60%;
 }
 
 .main_intro__selfie_container{
     display: inline-block;
     vertical-align: middle;
-    padding: 8px 0;
+    padding: 8px 38px;
 }
 
 .main_intro__selfie{
     /*display: inline-block;*/
     border:4px solid gold;
+    /*border:4px solid rgb(200, 200, 219);*/
     border-radius: 50%;
     width: 240px;
     height: 240px;
@@ -156,14 +163,17 @@ body{
 
 @media only screen and (min-width: 320px) and (max-width:428px){
     .body_main__intro{
-
         width: 100%;
+        background-color: gray ;
+        top: 80px;
     }
     
     .header_logo__link{
-        font-size: 20px;
+        font-size: 25px;
         vertical-align: middle;
         position: fixed;
+        right:100px;
+        color: black;
     }
 
     .header_nav{
@@ -174,6 +184,7 @@ body{
 
     .main-header{
         height: 80px;
+        background-color: orange ;
     }
 
     .main-header > div{
@@ -189,7 +200,10 @@ body{
     .main_intro__content p{
         display: block;
     }
-
+    .main_intro__container {
+        width: 100%;
+        font-size: 20px;
+    }
     .main_intro__selfie{
         display: inline-block;
         position: fixed;
@@ -205,6 +219,7 @@ body{
     .main_intro__content{
         font-size: medium;
         margin-left: 20px;
+        padding: 0;
     }
 
     .main_intro_secondary{
@@ -214,9 +229,9 @@ body{
     .work_companies__list{
         display: block !important;
         width: 100% !important; 
-        position: relative;
+        /*position: relative;
         right: 40px;
-        bottom: 20px;
+        bottom: 20px;*/
     }
 
     .work_companies__listitem svg {
@@ -229,9 +244,10 @@ body{
         display: block !important;
         padding: 10px !important;
         width: 8em !important;
-        position: relative;
+        /*position: relative;
         left: 90px;
-        top:110px;
+        top:110px;*/
+        margin-left: 90px;
     }
 }
 
@@ -284,7 +300,7 @@ body{
     bottom:80px;*/
     display: inline-block;
     vertical-align: middle;
-    width: calc(100% - 382px);
+    width: calc(100% - 340px);
     text-align: right;
     padding: 0;
 }
@@ -296,7 +312,7 @@ body{
 
 
 .work_companies__listitem  svg {
-    width: 80px;
+    width: 60px;
     height: 80px;
     margin:8px;
 }
@@ -323,13 +339,6 @@ body{
 
 .work_companies__accenture svg g{
     fill: rgb(57, 141, 209);
-}
-
-.section_about_me__intro{
-    width: 100%;
-    /*height: 424px;*/
-    height: calc(100% - 480px);
-    background-color: #629fd1;
 }
 
 .common_footer{

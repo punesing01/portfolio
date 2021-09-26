@@ -1,0 +1,72 @@
+.section_about_me__intro{
+    width: 100%;
+    height: calc(100% - 500px);
+    /*background-color: #629fd1;*/
+    /*background-color: gray;*/
+    margin-top: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    line-height: 1.2em;
+    text-align: left;
+    font-weight: bolder;
+    background-color: #153956;
+}
+
+.about_me__svg > svg{
+    display: none;
+}
+
+#myIntroduction{
+    margin: 0;
+    font-size: x-large;
+    color: white;
+    line-height: 1.6;
+}
+
+.about_me__container {
+    color: white;
+    margin-left: 108px;
+    font-size: x-large;
+    vertical-align: middle;
+    position: absolute;
+    top:440px;
+    padding: 0;
+    width: 50%;
+}
+
+@media only screen and (min-width: 320px) and (max-width:428px){
+    .about_me__container{
+        /*background: rgb(218, 228, 226);*/
+        /*background: white;*/
+        background: gray;
+        /*border: 2px solid white;*/
+        border: 2px solid darkgrey;
+        /*border-radius: 20px;*/
+        height: 90%;
+        width: 90%;
+        position: relative;
+        left: 18px;
+        top:18px;
+        /*box-shadow: 10px 5px 5px rgb(231 207 73);*/
+        text-align: center;
+        line-height: 1.4em;
+        color: white;
+        
+    }
+
+
+    .about_me__svg > svg:nth-of-type(1) {
+        position: absolute;
+        right: 20px;
+        bottom:295px;
+        display: block;
+    }
+
+    .about_me__svg > svg:nth-of-type(2) {
+        position: absolute;
+        right: 45px;
+        bottom:295px;
+        display: block;
+        fill:darkgrey;
+    }
+}
