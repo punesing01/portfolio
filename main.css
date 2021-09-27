@@ -44,7 +44,7 @@ body{
 
 .header_nav{
     display:inline-block;
-    width: calc(100% - 457px);
+    width: calc(100% - 477px);
     text-align: right;
     margin-right: 140px;
 }
