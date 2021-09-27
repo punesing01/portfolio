@@ -189,7 +189,7 @@ body{
 
     .main_intro__header{
         display: block;
-        font-size: large;
+        font-size: xxx-large;
     }
 
     .main_intro__content p{
@@ -199,6 +199,11 @@ body{
         width: 100%;
         font-size: 20px;
     }
+
+    .main_intro__selfie_container{
+        padding: 0 !important;
+    }
+
     .main_intro__selfie{
         display: inline-block;
         position: fixed;
@@ -279,7 +284,7 @@ body{
     vertical-align: middle;
     background: rgb(218, 228, 226);
     font-family: 'Josefin Sans', sans-serif;
-    font-size: large;
+    /*font-size: large;*/
 }
 
 .main_intro__button:hover,

@@ -54,6 +54,9 @@
         color: white;
     }
 
+    .about_me__svg{
+        display: none;
+    }
 
     /*.about_me__svg > svg:nth-of-type(1) {
         position: absolute;
