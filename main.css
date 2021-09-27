@@ -39,6 +39,10 @@ body{
     margin-left: 150px;
 }
 
+.header_logo__link > span{
+    text-align: center;
+}
+
 .header_logo__link:hover{
     color: rgb(164, 207, 243);
 }
