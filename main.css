@@ -174,11 +174,13 @@ body{
     }
     
     .header_logo__link{
+        display: block;
+        margin: 16px auto;
         font-size: 25px;
-        vertical-align: middle;
-        position: fixed;
-        /*right:160px;*/
+        /*position: fixed;
+        right:160px;*/
         color: black;
+        text-align: center;
     }
 
     .header_nav{
@@ -359,4 +361,3 @@ body{
     font-weight: bold;
     font-size: large;
 }
-
