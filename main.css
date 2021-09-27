@@ -35,7 +35,7 @@ body{
     font-size: 28px;
     margin: 8px 16px;
     transition: color 2s, transform 2s; 
-    margin-left: 140px;
+    margin-left: 150px;
 }
 
 .header_logo__link:hover{
@@ -163,7 +163,7 @@ body{
 
 @media only screen and (min-width: 320px) and (max-width:428px){
     .body_main__intro{
-        width: 100%;
+        /*width: 100%;*/
         background-color: gray ;
         top: 80px;
     }
@@ -172,7 +172,7 @@ body{
         font-size: 25px;
         vertical-align: middle;
         position: fixed;
-        right:100px;
+        /*right:160px;*/
         color: black;
     }
 
@@ -185,11 +185,6 @@ body{
     .main-header{
         height: 80px;
         background-color: orange ;
-    }
-
-    .main-header > div{
-        display: inline-block;
-        vertical-align: middle;
     }
 
     .main_intro__header{
@@ -207,8 +202,8 @@ body{
     .main_intro__selfie{
         display: inline-block;
         position: fixed;
-        top:5px;
-        right: 0;
+        top:6px;
+        right:0;
         z-index: 300;
         width: 70px;
         height: 70px;
@@ -229,14 +224,15 @@ body{
     .work_companies__list{
         display: block !important;
         width: 100% !important; 
+        text-align: center !important;
         /*position: relative;
         right: 40px;
         bottom: 20px;*/
     }
 
     .work_companies__listitem svg {
-        width: 50px !important;
-        height: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
         margin: 2px !important;
     }
 
@@ -274,7 +270,7 @@ body{
     width: 12rem;
     text-align: center;
     padding: 0.8rem;
-    border-radius: 16px;
+    /*border-radius: 16px;*/
     font-weight: bolder;
     box-shadow: 10px 5px 5px rgb(231, 207, 73);
     /*position: relative;
@@ -353,3 +349,4 @@ body{
     font-weight: bold;
     font-size: large;
 }
+

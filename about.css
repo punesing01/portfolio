@@ -28,10 +28,9 @@
     margin-left: 108px;
     font-size: x-large;
     vertical-align: middle;
-    position: absolute;
-    top:440px;
+    position: relative;
+    top:32px;
     padding: 0;
-    width: 50%;
 }
 
 @media only screen and (min-width: 320px) and (max-width:428px){
@@ -40,22 +39,23 @@
         /*background: white;*/
         background: gray;
         /*border: 2px solid white;*/
-        border: 2px solid darkgrey;
+        /*border: 2px solid darkgrey;*/
         /*border-radius: 20px;*/
-        height: 90%;
-        width: 90%;
+        /*height: 90%;
+        width: 90%;*/
+        width: 100%;
+        margin:0;
         position: relative;
-        left: 18px;
-        top:18px;
+        left: 0px;
+        /*top:18px;*/
         /*box-shadow: 10px 5px 5px rgb(231 207 73);*/
         text-align: center;
         line-height: 1.4em;
         color: white;
-        
     }
 
 
-    .about_me__svg > svg:nth-of-type(1) {
+    /*.about_me__svg > svg:nth-of-type(1) {
         position: absolute;
         right: 20px;
         bottom:295px;
@@ -68,5 +68,13 @@
         bottom:295px;
         display: block;
         fill:darkgrey;
+    }*/ 
+
+    #myIntroduction{
+        font-size: 20px;
+        text-align: left;
+        padding: 4px 8px;
+        margin-left: 20px;
+        font-weight: normal;
     }
 }
