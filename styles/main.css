@@ -22,6 +22,7 @@ body{
     top: 0;
     left: 0;
     z-index: 100;
+    height: 80px;
 }
 
 .main-header > div{
@@ -100,13 +101,15 @@ body{
 
 .body_main{
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     background-color: black;
+    margin-top: 80px;
 }
 
 .body_main__intro{
     width: 100%;
     background-color: #153956;
+    padding: 40px;
 }
 
 .main_intro__content{
@@ -151,7 +154,8 @@ body{
 
     .body_main__intro{
         /*background-color: black;*/
-        margin-top: 80px;
+        /*margin-top: 80px;*/
+        padding: 0;
     }
     
     .header_logo__link{
@@ -184,6 +188,7 @@ body{
         font-weight: 300;
         font-style: italic;
         color: white;
+        
     }
     .main_intro__container {
         width: 100%;
@@ -209,7 +214,7 @@ body{
 
     .main_intro__content{
         font-size: medium;
-        margin-left: 20px;
+        margin-left: 0;
         padding: 0;
     }
 
