@@ -21,12 +21,14 @@
 #myIntroduction{
     margin: 0;
     font-size: x-large;
+    /*color: white;*/
     color: white;
     line-height: 1.6;
 }
 
 .about_me__container {
-    color: white;
+    /*color: white;*/
+    color: gray;
     margin-left: 108px;
     font-size: x-large;
     vertical-align: middle;
@@ -39,7 +41,8 @@
     .about_me__container{
         /*background: rgb(218, 228, 226);*/
         /*background: white;*/
-        background: gray;
+        /*background: gray;*/
+        background-color: black;
         /*border: 2px solid white;*/
         /*border: 2px solid darkgrey;*/
         /*border-radius: 20px;*/
@@ -53,7 +56,7 @@
         /*box-shadow: 10px 5px 5px rgb(231 207 73);*/
         text-align: center;
         line-height: 1.4em;
-        color: white;
+        /*color: gray;*/
     }
 
     .about_me__svg{
@@ -83,6 +86,8 @@
         font-weight: normal;
         font-weight: 300;
         font-style: italic;
+        color: gray;
+
     }
 
     .modal_contents__link{

@@ -13,7 +13,9 @@
 }
 
 .modal {
-    background-color: rgb(214, 221, 230);
+    /*background-color: rgb(214, 221, 230);*/
+    background-color: rgb(22, 19, 19) ;
+
     width: 80%;
     height: 100%;
     position: fixed;
@@ -30,7 +32,8 @@
 
 .modal_contents__link{
     display: none;
-    color: black;
+    /*color: black;*/
+    color: white;
     font-size: 20px;
     padding: 20px;
     text-decoration: none;
@@ -55,5 +58,13 @@
 
     .bar {
         display: block;
+    }
+
+    .modal_contents__linkedin svg > g{
+        fill: white;
+    }
+
+    .close{
+        color: white;
     }
 }
