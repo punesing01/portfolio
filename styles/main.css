@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -95,7 +97,7 @@ body{
     stroke: gold;
     background: gold;
 }
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
 
 .body_main{
     width: 100%;
@@ -201,6 +203,7 @@ body{
 
     .main_intro__content p{
         display: block;
+        font-weight: 300;
     }
     .main_intro__container {
         width: 100%;
