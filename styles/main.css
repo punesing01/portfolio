@@ -275,6 +275,7 @@ body{
     .common_footer > div{
         /*color: gold;*/
         font-weight: lighter !important;
+        font-style: italic;
     }
 
     .work_companies__bby svg g{
