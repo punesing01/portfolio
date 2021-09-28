@@ -9,6 +9,7 @@
     line-height: 1.2em;
     text-align: left;
     background-color: #153956;
+    padding: 0 160px 40px;
 }
 
 .about_me__svg > svg{
@@ -20,11 +21,12 @@
     font-size: x-large;
     color: white;
     line-height: 1.6;
+    font-weight: 100;
 }
 
 .about_me__container {
     color: gray;
-    margin-left: 108px;
+    /*margin-left: 108px;*/
     font-size: x-large;
     vertical-align: middle;
     padding: 0;
@@ -73,5 +75,9 @@
 
     .modal_contents__link{
         font-style: italic;
+    }
+
+    .section_about_me__intro{
+        padding: 0;
     }
 }

@@ -23,6 +23,8 @@ body{
     left: 0;
     z-index: 100;
     height: 80px;
+    padding: 16px;
+    text-align: center;
 }
 
 .main-header > div{
@@ -36,9 +38,9 @@ body{
     color: gold;
     cursor: pointer;
     font-size: 28px;
-    margin: 8px 16px;
+    /*margin: 8px 16px;*/
     transition: color 2s, transform 2s; 
-    margin-left: 150px;
+    /*margin-left: 150px;*/
 }
 
 .header_logo__link > span{
@@ -51,9 +53,9 @@ body{
 
 .header_nav{
     display:inline-block;
-    width: calc(100% - 477px);
+    width: calc(100% - 500px);
     text-align: right;
-    margin-right: 140px;
+    /*margin-right: 140px;*/
 }
 
 .header_nav__list{
@@ -115,10 +117,11 @@ body{
 .main_intro__content{
     font-family: 'Josefin Sans', sans-serif;
     color: gray;
-    margin-left: 108px;
+    /*margin-left: 108px;*/
     font-size: x-large;
     vertical-align: middle;
     padding: 16px 0;
+    text-align: center;
   }
 
 .main_intro__container {
@@ -131,7 +134,7 @@ body{
 
 .main_intro__selfie_container{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     padding: 8px 38px;
 }
 
@@ -147,8 +150,12 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-color: rgb(105, 103, 103);
+    padding: 0;
 }
 
+.main_intro_secondary{
+    text-align: center;
+}
 
 @media only screen and (min-width: 320px) and (max-width:428px){
 
@@ -174,22 +181,19 @@ body{
     .main-header{
         height: 80px;
         background-color: rgb(22, 19, 19) ;
+        padding:0;
     }
 
     .main_intro__header{
         display: block;
-        font-size: 50px;
-        font-style: italic;
-        color: white;
+        font-size: 50px !important;
     }
 
     .main_intro__content p{
         display: block;
-        font-weight: 300;
-        font-style: italic;
-        color: white;
-        
+        font-weight: 300 !important;
     }
+
     .main_intro__container {
         width: 100%;
         font-size: 20px;
@@ -224,6 +228,7 @@ body{
       }
 
     .work_companies__list{
+        display: block;
         width: 100% !important; 
         text-align: center !important;
         margin: 20px 0 0 0;
@@ -273,6 +278,9 @@ body{
    vertical-align: middle;
    margin:0;
    padding: 4px 8px;
+   font-size: 100px;
+   font-style: italic;
+   color: white;
 }
 
 .main_intro__content p{
@@ -280,6 +288,9 @@ body{
     text-align: left;
     padding: 4px 8px;
     line-height: 1.6;
+    font-style: italic;
+    color: white;   
+    font-weight: 100;
 }
 
 .main_intro__button{
@@ -306,10 +317,11 @@ body{
 }
 
 .work_companies__list{
-    display: block;
-    width: calc(100% - 340px);
+    display: inline-block;
+    width: calc(100% - 740px);
     text-align: right;
     padding: 0;
+    vertical-align: middle;
 }
 
 .work_companies__listitem{
