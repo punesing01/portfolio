@@ -276,6 +276,27 @@ body{
         /*color: gold;*/
         font-weight: lighter !important;
     }
+
+    .work_companies__bby svg g{
+        fill: white !important;
+    }
+    
+    .work_companies__rbc svg g{
+        fill: white !important;
+    }
+    
+    .work_companies__rbc svg path:not(:first-of-type) {
+        fill:white ;
+    }
+    
+    .work_companies__ze svg g{
+        fill: white !important;
+    }
+
+    
+    .work_companies__accenture svg g{
+        fill: white !important;
+    }
 }
 
 .main_intro__header{
