@@ -84,4 +84,8 @@
         font-weight: 300;
         font-style: italic;
     }
+
+    .modal_contents__link{
+        font-style: italic;
+    }
 }

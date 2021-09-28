@@ -198,7 +198,8 @@ body{
 
     .main_intro__header{
         display: block;
-        font-size: xxx-large;
+        font-size: xx-large;
+        font-style: italic;
     }
 
     .main_intro__content p{
@@ -258,6 +259,7 @@ body{
     .main_intro__button{
         display: block !important;
         padding: 10px !important;
+        font-style: italic;
         /*width: 8em !important;*/
         /*position: relative;
         left: 90px;
