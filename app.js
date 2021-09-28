@@ -18,6 +18,5 @@ closeButton.addEventListener('click',function(){
 
 
 aboutMeOption.addEventListener('click',function(){
-    //introPara.style.boxShadow= '10px 5px 5px rgb(231 207 73)';
     modal.style.display = 'none';
 });

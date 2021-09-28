@@ -10,7 +10,7 @@ html{
 body{
     margin:0;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 .main-header{
@@ -104,12 +104,10 @@ body{
 
 .body_main__intro{
     width: 100%;
-    /*height: 424px;*/
-    height: 550px;
+    /*height: 550px;*/
     background-color: #153956;
-    position: relative;
-    /*top: 76px;*/
-    top: 48px;
+    /*position: relative;
+    top: 48px;*/
 }
 
 .main_intro__content{
@@ -154,7 +152,7 @@ body{
     margin: 0;
     vertical-align: middle;
     /*position: relative;*/
-    background: url("images/selfie.JPG");
+    background: url("../images/selfie.JPG");
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
@@ -163,14 +161,16 @@ body{
 
 
 .main_intro_secondary{
-    margin-left: 108px;
+    /*margin-left: 108px;*/
 }
 
 @media only screen and (min-width: 320px) and (max-width:428px){
+
     .body_main__intro{
         /*width: 100%;*/
         background-color: gray ;
-        top: 80px;
+        /*top: 80px;*/
+        margin-top: 80px;
     }
     
     .header_logo__link{
@@ -230,16 +230,19 @@ body{
     }
 
     .main_intro_secondary{
-        margin-left: 20px;
+        /*margin-left: 20px;*/
+        margin:auto;
+        /*padding: 10px;*/
     }
 
     .work_companies__list{
-        display: block !important;
+        /*display: block !important;*/
         width: 100% !important; 
         text-align: center !important;
         /*position: relative;
         right: 40px;
         bottom: 20px;*/
+        margin: 20px 0 0 0;
     }
 
     .work_companies__listitem svg {
@@ -251,11 +254,15 @@ body{
     .main_intro__button{
         display: block !important;
         padding: 10px !important;
-        width: 8em !important;
+        /*width: 8em !important;*/
         /*position: relative;
         left: 90px;
         top:110px;*/
-        margin-left: 90px;
+        /*margin-left: 90px;*/
+    }
+
+    .common_footer > div {
+        padding: 16px 0 0 0 !important;
     }
 }
 
@@ -291,6 +298,7 @@ body{
     vertical-align: middle;
     background: rgb(218, 228, 226);
     font-family: 'Josefin Sans', sans-serif;
+    margin:auto;
     /*font-size: large;*/
 }
 
@@ -306,8 +314,8 @@ body{
     position: relative;
     left:96px;
     bottom:80px;*/
-    display: inline-block;
-    vertical-align: middle;
+    /*display: inline-block;*/
+    display: block;
     width: calc(100% - 340px);
     text-align: right;
     padding: 0;
