@@ -204,6 +204,7 @@ body{
     .main_intro__content p{
         display: block;
         font-weight: 300;
+        font-style: italic;
     }
     .main_intro__container {
         width: 100%;
