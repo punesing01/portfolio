@@ -133,7 +133,8 @@ body{
     vertical-align: middle;
     /*height: 240px;*/
     text-align: left;
-    padding: 8px 0;
+    /*padding: 8px 0;*/
+    padding: 16px;
     width: 60%;
 }
 
@@ -198,7 +199,7 @@ body{
 
     .main_intro__header{
         display: block;
-        font-size: xxx-large;
+        font-size: 50px;
         font-style: italic;
     }
 

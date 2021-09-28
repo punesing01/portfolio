@@ -47,7 +47,7 @@
         width: 90%;*/
         width: 100%;
         margin:0;
-        position: relative;
+        /*position: relative;*/
         left: 0px;
         /*top:18px;*/
         /*box-shadow: 10px 5px 5px rgb(231 207 73);*/
@@ -78,7 +78,7 @@
     #myIntroduction{
         font-size: 20px;
         text-align: left;
-        padding: 4px 8px;
+        padding: 16px;
         margin-left: 20px;
         font-weight: normal;
         font-weight: 300;
