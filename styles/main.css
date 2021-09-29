@@ -25,6 +25,9 @@ body{
     height: 80px;
     padding: 16px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-header > div{
@@ -159,7 +162,7 @@ body{
     text-align: center;
 }
 
-@media only screen and (min-width: 320px) and (max-width:428px){
+@media only screen and (min-width: 320px) and (max-width:900px){
 
     .body_main__intro{
         /*background-color: black;*/
