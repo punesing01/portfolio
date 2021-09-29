@@ -28,6 +28,13 @@
     font-weight: bold;
 }
 
+.modal_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal_contents__link{
     display: none;
     color: white;
