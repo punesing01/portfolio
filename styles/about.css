@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 
 .section_about_me__intro{
-    width: 100%;
-    height: calc(100% - 500px);
-    margin-top: 0;
     font-family: 'Josefin Sans', sans-serif;
-    color: black;
-    line-height: 1.2em;
-    text-align: left;
     background-color: #153956;
     padding: 0 160px 40px;
 }
@@ -30,9 +24,14 @@
     font-size: x-large;
     vertical-align: middle;
     padding: 0;
+    margin: 0 64px;
 }
 
 @media only screen and (min-width: 320px) and (max-width:900px){
+    .section_about_me__intro{
+        padding: 0 40px !important;
+    }
+
     .about_me__container{
         /*background-color: black;*/
         background-color: #153956;
