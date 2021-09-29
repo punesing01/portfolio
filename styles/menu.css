@@ -28,6 +28,13 @@
     font-weight: bold;
 }
 
+.modal_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal_contents__link{
     display: none;
     color: white;
@@ -44,7 +51,7 @@
     margin: 8px 16px;
 }
 
-@media only screen and (min-width: 320px) and (max-width:428px){
+@media only screen and (min-width: 320px) and (max-width:900px){
     .hamburger_menu{
         position: fixed;
         top: 20px;
