@@ -104,7 +104,7 @@ body{
 .body_main__intro{
     width: 100%;
     background-color: #153956;
-    padding: 40px;
+    padding: 40px 150px;
 }
 
 .main_intro__content{
@@ -113,20 +113,23 @@ body{
     /*margin-left: 108px;*/
     font-size: x-large;
     vertical-align: middle;
-    padding: 16px 0;
+    /*padding: 16px 0;*/
     text-align: center;
+    display: flex;
+    margin: 0 64px;
+    justify-content: space-around;
   }
 
 .main_intro__container {
-    display: inline-block;
+    /*display: inline-block;*/
     vertical-align: middle;
     text-align: left;
-    padding: 16px;
-    width: 60%;
+    /*padding: 16px;
+    width: 60%;*/
 }
 
 .main_intro__selfie_container{
-    display: inline-block;
+    /*display: inline-block;*/
     vertical-align: top;
     padding: 8px 38px;
 }
@@ -148,7 +151,12 @@ body{
 }
 
 .main_intro_secondary{
-    text-align: center;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
 }
 
 @media only screen and (min-width: 320px) and (max-width:900px){
@@ -156,7 +164,8 @@ body{
     .body_main__intro{
         /*background-color: black;*/
         /*margin-top: 80px;*/
-        padding: 0;
+        /*padding: 0;*/
+        padding: 40px !important;
     }
     
     .header_logo__link{
@@ -212,20 +221,24 @@ body{
 
     .main_intro__content{
         font-size: medium;
-        margin-left: 0;
+        /*margin-left: 0;*/
         padding: 0;
+        margin: 0;
     }
 
     .main_intro_secondary{
-        margin:auto;
-        background-color: #153956;
+        justify-content: center !important;
+        flex-wrap: wrap;
       }
 
     .work_companies__list{
         display: block;
         width: 100% !important; 
-        text-align: center !important;
+        /*text-align: center !important;*/
         margin: 20px 0 0 0;
+        align-items: center !important;
+        padding:16px;
+        justify-content: center !important;
     }
 
     .work_companies__listitem svg {
@@ -238,6 +251,8 @@ body{
         display: block !important;
         padding: 10px !important;
         font-style: italic;
+        height: 50px !important;
+        width: 14rem !important;
         /*box-shadow: 10px 5px 5px grey !important;*/
     }
 
@@ -300,9 +315,11 @@ body{
     vertical-align: middle;
     background: rgb(218, 228, 226);
     font-family: 'Josefin Sans', sans-serif;
-    margin:auto;
+    /*margin:auto;*/
+    margin:0;
     color: gray;
     font-size: large;
+    height: 50px;
 }
 
 .main_intro__button:hover,
@@ -313,11 +330,16 @@ body{
 }
 
 .work_companies__list{
-    display: inline-block;
+    /*display: inline-block;
     width: calc(100% - 740px);
     text-align: right;
     padding: 0;
-    vertical-align: middle;
+    vertical-align: middle;*/
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .work_companies__listitem{
@@ -412,5 +434,4 @@ body{
     font-weight: bold;
     font-size: large;
 }
-
 
