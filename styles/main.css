@@ -312,7 +312,6 @@ body{
     font-weight: bolder;
     /*box-shadow: 10px 5px 5px rgb(231, 207, 73);*/
     box-shadow: 10px 5px 5px grey;
-
     display: inline-block;
     vertical-align: middle;
     background: rgb(218, 228, 226);
@@ -322,6 +321,10 @@ body{
     color: gray;
     font-size: large;
     height: 50px;
+}
+
+.main_intro__button > a{
+    text-decoration: none;
 }
 
 .main_intro__button:hover,
