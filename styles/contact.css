@@ -1,0 +1,100 @@
+.form_container{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_modal{
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid gray;
+    width: 50%;
+    position: absolute;
+    top:300px;
+    left:300px;
+    height:620px;
+    z-index: 99;
+    display: none;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.contact_form{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact_close{
+    position: absolute;
+    right:6px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact_span{
+    color: white;
+    padding: 16px;  
+}
+
+@media only screen and (min-width: 320px) and (max-width:900px){
+    .contact_modal{
+        width: 80% !important;
+        left: 45px;
+        top: 400px;
+    }
+
+    .contact_span{
+        color: white;
+        padding: 16px;  
+        font-weight: 100;
+        font-size: 25px;
+    }
+
+    .field_group{
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-weight: 100;
+        width: 100%;
+    }
+
+    .field_group > label{
+        margin: 8px;
+        text-align: left;
+    }
+
+    .field_group > input{
+        margin: 8px;
+        width: 200px;
+    }
+    
+    #message{
+        height: 200px;
+    }
+
+    #firstName,
+    #lastName,
+    #email{
+        height: 30px;
+    }
+
+   label[for="email"]{
+    margin-right:40px;
+   }
+
+    .contact_form input[type="submit"]{
+        border: 2px solid white;
+        background: rgb(218, 228, 226);
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 16px;
+        width: 80px;
+        height: 30px;
+        text-align: center;
+    }
+}

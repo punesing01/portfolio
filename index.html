@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/main.css"></link>
     <link rel="stylesheet" href="styles/menu.css"></link>
     <link rel="stylesheet" href="styles/about.css"></link>
+    <link rel="stylesheet" href="styles/contact.css"></link>
     <script src="app.js" defer></script>
 </head>
 <body>
@@ -126,7 +127,9 @@ c0 493 -2 519 -48 608 -29 57 -112 129 -177 153 -98 37 -212 48 -302 30z"/>
                 </div>
             </div>
             <div class="main_intro_secondary">
-                <div class="main_intro__button">Get in touch</div>
+                <div class="main_intro__button">
+                    <a href="#contact_me__form">Get in touch</a>
+                </div>
                 <ul class="work_companies__list">
                     <li class="work_companies__listitem">
                         <a class="work_companies__dimension work_companies__bby" href="https://www.bestbuy.ca/en-ca">
@@ -431,8 +434,32 @@ c0 493 -2 519 -48 608 -29 57 -112 129 -177 153 -98 37 -212 48 -302 30z"/>
                     Selenium, TestNg, Spock, BDD, TDD, Cucumber, Cypress, Rest assured, etc. I am passionate about learning web development using Vanilla Javascipt, HTML and css. My goal is to learn the foundation before moving onto the Javascript libraries like React.</p>          
             </div>
         </section>
-        
     </main>
+    <div class="contact_modal">
+        <span class="contact_close">&times;</span>
+        <div class="form_container" id="contact_me__form">
+            <span class="contact_span">Contact</span>
+            <form class="contact_form">
+                <div class="field_group">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="firstName" name="fname">
+                </div>
+                <div class="field_group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lastName" name="lname">
+                </div>
+                <div class="field_group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="field_group">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message" maxlength="200">
+                </div>
+                <input type="submit" value="Submit"></input>
+            </form>
+        </div>
+    </div>
     <footer class="common_footer">
             <div>
                 Designed and coded with passion
