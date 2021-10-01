@@ -9,11 +9,11 @@
 .contact_modal{
     background-color: rgba(0, 0, 0, 0.9);
     border: 2px solid gray;
-    width: 50%;
+    width: 500px;
     position: absolute;
     top:120px;
-    left:300px;
-    height:650px;
+    left:500px;
+    height:800px;
     z-index: 99;
     display: none;
     flex-direction: column;
@@ -55,6 +55,15 @@
     font-size: 20px;
 }
 
+.field_group{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 100;
+    width: 100%;
+}
+
 .field_group > label{
     margin: 8px;
     text-align: left;
@@ -67,8 +76,7 @@
     width: 300px;
 }
 
-#message{
-    
+#message{    
     height: 350px;
 }
 
@@ -83,6 +91,7 @@
         width: 85% !important;
         left: 32px;
         top: 200px;
+        height: 630px !important;
     }
 
     .contact_span{
@@ -113,15 +122,15 @@
         width: 200px;
     }
     
-    #message{
+   #message{
         height: 200px;
     }
 
-    #firstName,
+    /*#firstName,
     #lastName,
     #email{
         height: 30px;
-    }
+    }*/
 
     /*.contact_form input[type="submit"]{
         border: 2px solid white;
