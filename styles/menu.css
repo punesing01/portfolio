@@ -63,7 +63,10 @@
     .bar {
         display: block;
     }
-
+    
+    .modal_contents{
+        height: 700px;
+    }
     .modal_contents__linkedin svg > g{
         fill: white;
     }
