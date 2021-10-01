@@ -253,8 +253,9 @@ body{
         display: block !important;
         padding: 10px !important;
         font-style: italic;
-        height: 50px !important;
-        width: 14rem !important;
+        height: 45px !important;
+        width: 10rem !important;
+        font-size: 20px !important;
         /*box-shadow: 10px 5px 5px grey !important;*/
     }
 

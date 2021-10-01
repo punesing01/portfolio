@@ -20,7 +20,6 @@ closeButton.addEventListener('click',function(){
     modal.style.display = 'none';
 });
 
-
 aboutMeOption.addEventListener('click',function(){
     modal.style.display = 'none';
 });
