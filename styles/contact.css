@@ -69,6 +69,7 @@
         margin: 8px;
         text-align: left;
         width: 74px;
+        font-style: italic;
     }
 
     .field_group > input{
@@ -89,11 +90,12 @@
     .contact_form input[type="submit"]{
         border: 2px solid white;
         background: rgb(218, 228, 226);
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Sans', sans-serif !important;
         margin: 16px;
         width: 80px;
         height: 30px;
         text-align: center;
         font-size: 18px;
+        border-radius: 0;
     }
 }
