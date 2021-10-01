@@ -3,7 +3,8 @@
 .section_about_me__intro{
     font-family: 'Josefin Sans', sans-serif;
     background-color: #153956;
-    padding: 0 160px 40px;
+    /*padding: 0 160px 40px;*/
+    padding:0 150px 40px 150px;
 }
 
 .about_me__svg > svg{
