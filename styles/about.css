@@ -16,6 +16,7 @@
     color: white;
     line-height: 1.6;
     font-weight: 100;
+    width: 70%;
 }
 
 .about_me__container {
@@ -26,7 +27,7 @@
     margin: 0 64px;
 }
 
-@media only screen and (min-width: 320px) and (max-width:900px){
+@media only screen and (min-width: 320px) and (max-width:690px){
     .section_about_me__intro{
         padding: 0 40px !important;
     }
@@ -52,6 +53,7 @@
         font-weight: 300;
         font-style: italic;
         color: white;
+        width: 100%;
     }
 
     .modal_contents__link{
@@ -60,5 +62,17 @@
 
     .section_about_me__intro{
         padding: 0;
+    }
+}
+
+@media (min-width: 691px) and (max-width:1366px){
+    .section_about_me__intro{
+        padding: 0 64px 64px 64px !important;
+    }
+
+    .about_me__container{
+        display: flex;
+        margin: 0 !important;
+        padding: 16px;
     }
 }

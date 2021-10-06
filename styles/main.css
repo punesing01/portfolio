@@ -107,7 +107,7 @@ body{
     text-align: center;
     display: flex;
     margin: 0 64px;
-    justify-content: space-around;
+    justify-content: center;
   }
 
 .main_intro__container {
@@ -143,7 +143,7 @@ body{
     padding:1rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width:900px){
+@media only screen and (min-width: 320px) and (max-width:690px){
 
     .body_main__intro{
         padding: 16px 40px 0 40px !important;
@@ -284,7 +284,8 @@ body{
 
 .main_intro__button{
     border: 2px solid white;
-    width: 12rem;
+    /*width: 12rem;*/
+    min-width: 130px;
     text-align: center;
     padding: 0.8rem;
     font-weight: bolder;
@@ -411,3 +412,49 @@ body{
     font-size: large;
 }
 
+@media (min-width: 691px) and (max-width:850px){
+.main_intro__selfie{
+    width:180px;
+    height: 180px;
+}
+
+.main_intro__header{
+    font-size: 70px;
+}
+
+.main_intro__container{
+    padding-left: 30px;
+}
+
+.about_me__container{
+    margin: 0 !important;
+}
+}
+
+@media (min-width: 768px) and (max-width:1366px){
+
+    .body_main__intro{
+        padding:30px 64px;
+    }
+
+    .main_intro__content{
+        margin: 0;
+        padding: 16px;
+    }
+
+    .main_intro__container{
+        padding:0;
+    }
+
+    .main_intro__selfie_container{
+        padding-right: 0;
+    }
+
+    .main_intro_secondary{
+        padding: 0;
+    } 
+
+    #myIntroduction{
+        width: 70%;
+    }
+}
