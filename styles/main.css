@@ -456,6 +456,12 @@ body{
     }
 }
 
+@media only screen and (min-width: 560px) and (max-width:690px){
+    .main_intro__content p{
+        width: 100%;
+    }
+}
+
 @media (min-width: 1367px) {
     .main_intro__content p{
         width: 50%;
