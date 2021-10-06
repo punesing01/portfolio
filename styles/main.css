@@ -452,9 +452,11 @@ body{
 
     .main_intro_secondary{
         padding: 0;
-    } 
+    }
+}
 
-    #myIntroduction{
-        width: 70%;
+@media (min-width: 1367px) {
+    .main_intro__content p{
+        width: 50%;
     }
 }

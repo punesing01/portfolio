@@ -75,4 +75,14 @@
         margin: 0 !important;
         padding: 16px;
     }
+
+    #myIntroduction{
+        width: 70%;
+    }
+}
+
+@media (min-width: 1367px) {
+    #myIntroduction{
+        width: 50%;
+    }
 }
