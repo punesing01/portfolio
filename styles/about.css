@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width: 691px) and (max-width:1366px){
+@media (min-width: 691px) {
     .section_about_me__intro{
         padding: 0 64px 64px 64px !important;
     }
