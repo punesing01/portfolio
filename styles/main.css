@@ -138,7 +138,7 @@ body{
 .main_intro_secondary{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding:1rem;
 }
