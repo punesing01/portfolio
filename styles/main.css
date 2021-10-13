@@ -176,11 +176,12 @@ body{
     .main_intro__content p{
         display: block;
         font-weight: 300 !important;
-        width: 70% !important;
+        /*width: 70% !important;*/
+        
     }
 
     .main_intro__container {
-        width: 100%;
+        width: 100% !important;
         font-size: 20px;
     }
 
@@ -463,7 +464,7 @@ body{
 }
 
 @media (min-width: 1367px) {
-    .main_intro__content p{
-        width: 50%;
+    .main_intro__container{
+        width: 60%;
     }
 }

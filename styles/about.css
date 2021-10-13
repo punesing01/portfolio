@@ -53,7 +53,7 @@
         font-weight: 300;
         font-style: italic;
         color: white;
-        width: 70%;
+        width: 100% !important;
     }
 
     .modal_contents__link{
