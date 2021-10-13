@@ -88,10 +88,11 @@
 
 @media (min-width: 1367px) {
     .about_me__container{
-        width: 60%;
+        /*width: 60%;*/
+        padding: inherit;
     }
     
-    /*#myIntroduction{
-        width: 100%;
-    }*/
+    #myIntroduction{
+        line-height: 3rem;
+    }
 }

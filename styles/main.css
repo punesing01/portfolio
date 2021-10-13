@@ -177,7 +177,6 @@ body{
         display: block;
         font-weight: 300 !important;
         /*width: 70% !important;*/
-        
     }
 
     .main_intro__container {
@@ -466,5 +465,9 @@ body{
 @media (min-width: 1367px) {
     .main_intro__container{
         width: 60%;
+    }
+
+    .main_intro__container > p{
+        line-height: 3rem;
     }
 }
