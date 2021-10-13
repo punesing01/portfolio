@@ -80,9 +80,9 @@
         width: 70%;
     }
 }
-@media only screen and (min-width: 560px) and (max-width:690px){
+@media only screen and (min-width: 570px) and (max-width:690px){
     #myIntroduction{
-        width: 100%;
+        width: 80%;
     }
 }
 
