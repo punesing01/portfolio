@@ -87,7 +87,11 @@
 }
 
 @media (min-width: 1367px) {
-    #myIntroduction{
-        width: 50%;
+    .about_me__container{
+        width: 60%;
     }
+    
+    /*#myIntroduction{
+        width: 100%;
+    }*/
 }
