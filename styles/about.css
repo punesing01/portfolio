@@ -86,12 +86,43 @@
     }
 }
 
-@media (min-width: 1367px) {
+@media only screen and (min-width: 1367px) and (max-width:1409px){
     .about_me__container{
-        /*width: 60%;*/
-        padding: inherit;
+        padding: 0 26px;
     }
-    
+
+    #myIntroduction{
+        line-height: 3rem;
+    }
+}
+
+
+@media only screen and (min-width: 1409px) and (max-width:1467px){
+    .about_me__container{
+        padding: 0 46px;
+    }
+    #myIntroduction{
+        line-height: 3rem;
+    }
+}
+
+@media (min-width: 1470px)  and (max-width:1667px){
+    .about_me__container{
+        padding: inherit;
+        margin: auto;
+    }
+
+    #myIntroduction{
+        line-height: 3rem;
+    }
+}
+
+@media (min-width: 1670px) {
+    .about_me__container{
+        padding: inherit;
+        
+    }
+
     #myIntroduction{
         line-height: 3rem;
     }
